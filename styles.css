@@ -1,0 +1,129 @@
+    :root{
+        --background-color:#19A1AE;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    body{
+        font-family: "Kumbh Sans";
+        background-color: var(--background-color);
+        width: 100%;
+    }   
+
+    .back-img-top{
+        position: absolute;
+        width: 47rem;
+        height: 62rem;
+        top:-30rem;
+    }
+
+    .back-img-bottom{
+        position: absolute;
+        width: 77rem;
+        height: 62rem;
+        right: -25rem;
+        bottom:-35rem;
+    }
+
+    @media only screen and (max-width: 850px){
+        .back-img-top{
+            width: 38rem;
+            height: 38rem;
+            top: -15rem;
+            left: -17rem;
+        }
+    }
+
+    @media only screen and (max-width: 850px){
+        .back-img-bottom{
+            width: 35rem;
+            height: 35rem;
+            right: -15rem;  
+            bottom: -10rem;
+        }
+    }
+
+.main-container{
+    width: 24rem;
+    height: 26rem;
+    border-radius: 1.2rem;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: 0;
+    left: 0;
+    position: flex;
+    flex-direction: column;
+}
+
+.img-card{
+    width: 100%;
+}
+
+.profile-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.7rem;
+    margin-top: -4rem;
+}
+
+.profile-img{
+    border-radius: 10rem;
+    border: 1rem solid white;
+    border-width: 0.5rem;
+    width: 6rem;
+    
+}
+
+.name{
+    color: #2E3349;
+    font-size: 1.2em;
+    font-weight: 900;
+
+}
+
+.name-age{
+    color: #6B7082;
+    font-weight: 100;
+}
+
+.name-city{
+    color: #6B7082;
+    font-weight: 100;
+}
+
+.Rectangle{
+    width: 100%;
+    height: 0.3%;
+    background-color: #E8E9EC;
+    margin-top: 1.8rem;
+}
+
+.profile-info-container{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    gap: 0.3rem;
+    margin-top: 2rem;
+}
+
+.data{
+    color: #2E3349;
+    font-weight: 700;
+}
+
+.data-name{
+    color: #6B7082;
+    font-weight: 300;
+    font-size: 0.8em;
+    letter-spacing: 1.5px;
+}
