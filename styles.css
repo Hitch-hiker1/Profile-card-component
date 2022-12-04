@@ -64,9 +64,10 @@
 
 @media only screen and (max-width: 850px) {
     .main-container {
-        width: 18rem;
-        height: 20rem;
+        width: 20rem;
+        height: 22rem;
     }
+    
 }
 
 .img-card{
@@ -113,6 +114,11 @@
     background-color: #E8E9EC;
     margin-top: 1.8rem;
 }
+@media only screen and (max-width: 850px) {
+    .Rectangle{
+        margin-top: 1rem;
+    }
+}
 
 .profile-info-container{
     display: grid;
@@ -133,4 +139,10 @@
     font-weight: 300;
     font-size: 0.8em;
     letter-spacing: 1.5px;
+}
+
+@media only screen and (max-width: 850px) {
+    .profile-info-container{
+        margin-top: 1.3rem;
+    }
 }
