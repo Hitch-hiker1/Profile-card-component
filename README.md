@@ -14,7 +14,7 @@ This is a solution to the <a href="https://www.frontendmentor.io/challenges/prof
 
   * flexbox
   
-  * SS Grid
+  * CSS Grid
 
   # author 
 
